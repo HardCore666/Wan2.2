@@ -5,3 +5,8 @@ tmp_examples*
 new_checkpoint*
 batch_test*
 nohup*
+
+# Task-local smoke outputs and downloaded model directories.
+artifacts/
+runs/
+Wan2.2-T2V-A14B/

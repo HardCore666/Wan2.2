@@ -1,0 +1,34 @@
+# Official Hugging Face API tree: Wan-AI/Wan2.2-T2V-A14B, revision main.
+# Queried 2026-09-18; required file count=32; total_bytes=126201624837.
+.gitattributes	1807
+assets/comp_effic.png	202156
+assets/logo.png	56322
+assets/moe_2.png	527914
+assets/moe_arch.png	74900
+assets/performance.png	306535
+assets/vae.png	165486
+configuration.json	47
+google/umt5-xxl/special_tokens_map.json	6623
+google/umt5-xxl/spiece.model	4548313
+google/umt5-xxl/tokenizer.json	16837417
+google/umt5-xxl/tokenizer_config.json	61728
+high_noise_model/config.json	250
+high_noise_model/diffusion_pytorch_model.safetensors.index.json	96805
+high_noise_model/diffusion_pytorch_model-00001-of-00006.safetensors	9992481544
+high_noise_model/diffusion_pytorch_model-00002-of-00006.safetensors	9943937936
+high_noise_model/diffusion_pytorch_model-00003-of-00006.safetensors	9943979184
+high_noise_model/diffusion_pytorch_model-00004-of-00006.safetensors	9839059744
+high_noise_model/diffusion_pytorch_model-00005-of-00006.safetensors	9839059744
+high_noise_model/diffusion_pytorch_model-00006-of-00006.safetensors	7595559224
+low_noise_model/config.json	250
+low_noise_model/diffusion_pytorch_model.safetensors.index.json	96805
+low_noise_model/diffusion_pytorch_model-00001-of-00006.safetensors	9992481544
+low_noise_model/diffusion_pytorch_model-00002-of-00006.safetensors	9943937936
+low_noise_model/diffusion_pytorch_model-00003-of-00006.safetensors	9943979184
+low_noise_model/diffusion_pytorch_model-00004-of-00006.safetensors	9839059744
+low_noise_model/diffusion_pytorch_model-00005-of-00006.safetensors	9839059744
+low_noise_model/diffusion_pytorch_model-00006-of-00006.safetensors	7595559224
+models_t5_umt5-xxl-enc-bf16.pth	11361920418
+nohup.out	939260
+README.md	17169
+Wan2.1_VAE.pth	507609880

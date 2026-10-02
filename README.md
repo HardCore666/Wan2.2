@@ -1,5 +1,16 @@
 # Wan2.2
 
+## Research additions in this fork
+
+This fork adds a T2V-A14B research workflow for motion and physical-interaction prompts while retaining the upstream generation implementation:
+
+- Lazy model entry-point imports keep optional speech dependencies out of text-to-video startup.
+- Download scripts and metadata tools describe the required checkpoint files and model-directory layout.
+- Environment packaging and generation wrappers support seeded prompt batches, multi-GPU execution, and output manifests.
+- Focused tests cover lazy imports, wrapper arguments, and output validation. Model weights, run outputs, and temporary artifacts are excluded from Git.
+
+The scripts retain the original laboratory paths under `/public/xbw` and `/9950backfile`. That server deployment has been removed; review these paths and provision dependencies before reuse. Publishing this source revision did not run model downloads, GPU generation, or checksum audits.
+
 <p align="center">
     <img src="assets/logo.png" width="400"/>
 <p>
